@@ -9,4 +9,9 @@ int main()
         {"Surname_4", 1930, "Worker_2", 40000, "4"},
         {"Surname_5", 1910, "Manager_3", 45000, "5"}
     };
+
+    for (int i = 0; i < 5; i++)
+        if (2025 - workers[i].year >= 60)
+            workers[i].printWorker();
+
 }
